@@ -12,7 +12,7 @@ namespace test_infinit
             int[] vect = new int[n];
             for (int i = 0; i < n; i++)
             {
-                Console.Write($"Introduceti elementul {i + 1}: ");
+                Console.Write($"Introduceti elementul {i}: ");
                 vect[i] = int.Parse(Console.ReadLine());
             }
 
